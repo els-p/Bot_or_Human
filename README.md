@@ -6,8 +6,8 @@ Social media post content can be created by computer bots. How can we cut out th
 
 ## Goal
 To build a binary classifer model that can identify if a post is from either one of the the below two subreddits:
-1. [r/SubredditSimulator/](https://www.reddit.com/r/SubredditSimulator/) : content is fully-automated; text for titles/comments/text-posts are generated using "markov chains"
-2. [r/Showerthoughts/](https://www.reddit.com/r/Showerthoughts/) 
+1. [r/SubredditSimulator/](https://www.reddit.com/r/SubredditSimulator/) - content is fully-automated; text for titles/comments/text-posts are generated using "markov chains"
+2. [r/Showerthoughts/](https://www.reddit.com/r/Showerthoughts/) - miniature epiphanies that arise while one's mind is engaged with a routine, uncomplicated activity
 
 ## Data Collection
 Data is scrapped from [Reddit](https://www.reddit.com) which is accessible to public.

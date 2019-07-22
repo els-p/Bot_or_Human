@@ -2,7 +2,7 @@
 Classifying posts from Reddit -Bot or Human?
 
 ## Problem Statement
-Social media posts content can be created by computer bots. How can we cut out the noise to find posts actually contributed by humans?
+Social media post content can be created by computer bots. How can we cut out the noise to find posts actually contributed by humans?
 
 ## Goal
 To build a binary classifer model that can identify if a post is from either of the the below two subreddits:

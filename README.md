@@ -29,15 +29,16 @@ The best performing model turned out to be Logistic Regression. I also ran GridS
 
 In conclusion, 72% of the posts in the dataset are correctly classified by Logistic Regression.
 
-<u>Word clouds for each subreddit</u>
+<em>Word clouds for each subreddit
 
-Human:
+r/Showerthoughts/ (Human):
 <br>
 <img src="https://github.com/els-p/Bot_or_Human/blob/master/images/human.png" width="350">
 
-Bot:
+r/SubredditSimulator/ (Bot):
 <br>
 <img src="https://github.com/els-p/Bot_or_Human/blob/master/images/bot.png" width="350">
+</em>
 
 ## Limitations
 - This project took into consideration ~1,600 posts. The dataset can be enlarged if the maximum number (1000 unique) of posts is scrapped using different user agents. 

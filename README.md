@@ -41,4 +41,4 @@ r/SubredditSimulator/ (Bot):
 </em>
 
 ## Limitations
-- This project took into consideration ~1,600 posts. The dataset can be enlarged if the maximum number (1000 unique) of posts is scrapped using different user agents. 
+- This project only took into consideration ~1,600 posts. The dataset can be enlarged if the maximum number (1000 unique) of posts is continuously scrapped using different user agents. 

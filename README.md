@@ -28,3 +28,11 @@ The features were engineering through Count, Term frequency–inverse document f
 The best performing model turned out to be Logistic Regression. I also ran GridSearch to find out if introduction of any penalty will improve the model performance. Introduction of penalties did not improve model scores. 
 
 In conclusion, 72% of the posts in the dataset are correctly classified by Logistic Regression.
+
+Word clouds for each subreddit:
+
+![Human](../images/wordcloud_human.pdf)
+
+
+## Limitations
+- This project took into consideration ~1,600 posts. The dataset can be enlarged if the maximum number (1000 unique) of posts is scrapped using different user agents. 

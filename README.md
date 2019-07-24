@@ -2,7 +2,7 @@
 Classifying posts from Reddit -Bot or Human?
 
 ## Problem statement
-Social media post content can be created by computer bots. How can we cut out the noise to find content actually contributed by humans?
+Social media content such as posts and reviews can be created by computer bots. How can we capture "fake" reviews to find content actually contributed by humans, improving accuracy of analyses done on such data?
 
 ## Goal
 To build a binary classifer model that can identify if a post is from either one of the the below two subreddits:
@@ -18,3 +18,13 @@ The dataset considers approximately 850 posts per subreddit. Each post is contri
 The text from post titles were stripped of accent and punctuation. Some punctuation that were not caught by the <i> string</i> module in python were replaced with a ':' (colon) which converted it to become recognisable. The data was then shuffled.
 
 ## Modelling
+Post titles were used as the feature in the modelling. I had initially considered post content but noted that it is common for users to post pictorial content without text content. Hence using titles will be more relevant for predictions. 
+
+The features were engineering through Count, Term frequency–inverse document frequency and Hash vectorizers and respectively fitted into the following classifers:
+1. Multinomial Naive Bayes
+2. Bernoulli Naive Bayes
+3. Logistic Regression
+
+The best performing model turned out to be Logistic Regression. I also ran GridSearch to find out if introduction of any penalty will improve the model performance. Introduction of penalties did not improve model scores. 
+
+In summary Logistic Regression 

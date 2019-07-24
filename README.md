@@ -31,7 +31,7 @@ In conclusion, 72% of the posts in the dataset are correctly classified by Logis
 
 Word clouds for each subreddit:
 
-![Human](https://github.com/els-p/Bot_or_Human/blob/master/images/wordcloud_bot.pdf)
+![Human](https://github.com/els-p/Bot_or_Human/blob/master/images/wordcloud_bot.png)
 
 
 ## Limitations

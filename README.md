@@ -29,6 +29,7 @@ The best performing model turned out to be Logistic Regression. I also ran GridS
 
 In conclusion, 72% of the posts in the dataset are correctly classified by Logistic Regression.
 
+## Visuals
 <em>Word clouds for each subreddit
 
 r/Showerthoughts/ (Human):

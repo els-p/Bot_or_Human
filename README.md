@@ -25,9 +25,7 @@ The features were engineering through Count, Term frequency–inverse document f
 2. Bernoulli Naive Bayes
 3. Logistic Regression
 
-The best performing model turned out to be Logistic Regression. I also ran GridSearch to find out if introduction of any penalty will improve the model performance. Introduction of penalties did not improve model scores. 
-
-In conclusion, 72% of the posts in the dataset are correctly classified by Logistic Regression.
+Scores for Multinomial Naive Bayes and Logistic Regression were quite close so I ran GridSearch to find out if introduction of any penalty on Logistic Regression will improve the model performance. It did not improve model scores. Hence, I conclude that the best performing model is the Multinomial Naive Bayes Classifier by which 75% of the posts in the dataset are correctly classified.
 
 ## Visuals
 <em>Word clouds for each subreddit

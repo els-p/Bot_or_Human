@@ -29,12 +29,9 @@ Scores for Multinomial Naive Bayes and Logistic Regression were quite close so I
 
 ## Visuals
 <em>Word clouds for each subreddit
-
-r/Showerthoughts/ (Human):
 <br>
 <img src="https://github.com/els-p/Bot_or_Human/blob/master/images/human.png" width="350">
 
-r/SubredditSimulator/ (Bot):
 <br>
 <img src="https://github.com/els-p/Bot_or_Human/blob/master/images/bot.png" width="350">
 </em>

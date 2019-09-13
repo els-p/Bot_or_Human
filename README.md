@@ -1,8 +1,8 @@
 # Bot_or_Human
-Classifying posts from Reddit -Bot or Human?
+Predict if a post from Reddit was made by a machine or human.
 
 ## Problem statement
-Social media content such as posts and reviews can be created by computer bots. How can we capture "fake" reviews to find content actually contributed by humans, improving accuracy of analyses done on such data?
+Social media content such as posts and reviews can be created by machines. How can we capture automated posts and reviews to identify content actually contributed by humans. The implications vary from improving accuracy of text analysis like sentiment analysis, to preserving the authenticity of product/ service reviews. 
 
 ## Goal
 To build a binary classifer model that can identify if a post is from either one of the the below two subreddits:

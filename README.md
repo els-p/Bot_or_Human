@@ -25,7 +25,7 @@ The features were engineering through Count and Term frequency–inverse documen
 2. Bernoulli Naive Bayes
 3. Logistic Regression
 
-Scores for Multinomial Naive Bayes and Logistic Regression were quite close so I ran GridSearch to find out if introduction of any penalty on Logistic Regression will improve the model performance. It did not improve model scores. Hence, I conclude that the best performing model is the Multinomial Naive Bayes Classifier by which ~73% of the posts in the dataset are correctly classified.
+Scores were consistently high for the Logistic Regression Classifier. I ran GridSearch to tune hyperparameters and the best performing model is the Logistic Regression Classifier with a precision score of 70%.
 
 ## Visuals
 <em>Word clouds for each subreddit

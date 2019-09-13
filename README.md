@@ -38,3 +38,4 @@ Scores for Multinomial Naive Bayes and Logistic Regression were quite close so I
 
 ## Limitations
 - This project only took into consideration ~1,600 posts. The dataset can be enlarged if the maximum number (1000 unique) of posts is continuously scrapped using different user agents. 
+- Content from both threads include an element of randomness. The model seem unable to identify whether the randomness is human or incoherence from bot content. Using LSTM architecture could improve results. 
